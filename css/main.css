@@ -1,0 +1,22 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  background-color: #999;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+
+}
+img {
+  max-width: 24rem;
+}
+li{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
