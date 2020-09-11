@@ -5,18 +5,30 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  background-color: #999;
+  background-color: #ccc;
   font-family: "Open Sans", sans-serif;
 }
 
 h2 {
-
+text-align: center;
 }
 img {
-  max-width: 24rem;
+  max-width: 5rem;
+  margin: 1rem;
 }
 li{
   display: flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
+  justify-content:space-between;
+  align-items: center;
+}
+
+a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
+}
+
+p {
+  width: 16rem;
 }
