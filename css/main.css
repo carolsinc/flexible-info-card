@@ -4,21 +4,32 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 html {
   background-color: #ccc;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
 }
 
 h2 {
-text-align: center;
+  text-align: center;
 }
+
 img {
   max-width: 5rem;
   margin: 1rem;
 }
-li{
+
+li {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
